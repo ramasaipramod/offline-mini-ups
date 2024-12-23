@@ -1,0 +1,434 @@
+{
+  "uuid": "c7d5405907cf6bef2b680588874576e6",
+  "path": "Offline/EP_assignment",
+  "name": "EP_assignment",
+  "content": "",
+  "created_at": "2023-10-29 00:52:08",
+  "updated_at": "2023-11-05 20:57:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6c06932f057c7f8c5cadf87ab5421188",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a4eacdcb63554cb08b3b56477817ab57": 1,
+        "2fe5a87765ae4c3f93002d61fc568f7b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "220uF",
+          1,
+          "CONN-TH_VH_1X02_P3.96MM_VERTICAL",
+          "C1",
+          {
+            "puuid": "784a808a6af94c139aa4b0bac2cef023",
+            "uuid": ""
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CPOL-RADIAL-5MM-10MM-KIT",
+          "C2",
+          {
+            "puuid": "a56bfb6b36b743d3960c07c49f9ccd98",
+            "uuid": ""
+          }
+        ],
+        [
+          "1mF",
+          1,
+          "CONN-TH_VH_1X02_P3.96MM_VERTICAL",
+          "C3",
+          {
+            "puuid": "784a808a6af94c139aa4b0bac2cef023",
+            "uuid": ""
+          }
+        ],
+        [
+          "0.1uF",
+          2,
+          "0402-TIGHT",
+          "C4,C5",
+          {
+            "puuid": "ed797e907c214f52aa3cbac5c18d4bc7",
+            "uuid": ""
+          }
+        ],
+        [
+          "C-US025-024X044",
+          1,
+          "C025-024X044",
+          "C7",
+          {
+            "puuid": "6df356e6ab83442da0f6c1372c27f98c",
+            "uuid": ""
+          }
+        ],
+        [
+          "3.6V",
+          1,
+          "SOD-323_L1.9-W1.3-LS2.6-RD",
+          "D1",
+          {
+            "puuid": "c3d38078307f4c1f96d05eced41ab710",
+            "uuid": ""
+          }
+        ],
+        [
+          "3.6V",
+          1,
+          "SOD-323",
+          "D2",
+          {
+            "puuid": "58cf47cc86d44a6a9f41d42cd83458d8",
+            "uuid": ""
+          }
+        ],
+        [
+          "200mA/100V/1V",
+          2,
+          "DIODE-1N4148-KIT",
+          "D7,D8",
+          {
+            "puuid": "8b29fe057b564251946d4868dcfcd700",
+            "uuid": ""
+          }
+        ],
+        [
+          "1N4004",
+          2,
+          "DO41-10",
+          "D9,D10",
+          {
+            "puuid": "113d5fb1d2714eb88660bafb55f5160d",
+            "uuid": ""
+          }
+        ],
+        [
+          "AB9V",
+          1,
+          "AB9V",
+          "G2",
+          {
+            "puuid": "36a30679eb3a40688e228ec11750c875",
+            "uuid": ""
+          }
+        ],
+        [
+          "MAX6520",
+          1,
+          "PG-SOT23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "IC1",
+          {
+            "puuid": "48edce3faa8c4191a500e455df7f7c60",
+            "uuid": ""
+          }
+        ],
+        [
+          "NE555",
+          1,
+          "DIL-08",
+          "IC2",
+          {
+            "puuid": "de3696f9d9fe4d8f83d3a809243d14e9",
+            "uuid": ""
+          }
+        ],
+        [
+          "CONN_02",
+          7,
+          "CONN-TH_VH_1X02_P3.96MM_VERTICAL",
+          "J1,J2,J8,J9,J10,J11,J12",
+          {
+            "puuid": "784a808a6af94c139aa4b0bac2cef023",
+            "uuid": ""
+          }
+        ],
+        [
+          "1m",
+          1,
+          "L_AXIAL-0.6",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L_AXIAL-0.6_US",
+            "Manufacturer Part": "",
+            "puuid": "61cccdc8b5014f5786200c9b3d832328",
+            "uuid": "2fe5a87765ae4c3f93002d61fc568f7b"
+          }
+        ],
+        [
+          "1m",
+          1,
+          "L0603",
+          "L3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "L",
+          1,
+          "IND-TH_INDUCTOR_BH2725-0721",
+          "L4",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "ebf4b408f4874f3b99d4517421b477b3",
+            "uuid": ""
+          }
+        ],
+        [
+          "LAP4-BOTTOM",
+          3,
+          "LED-TH_BD9.0-P2.54-RD",
+          "LED1,LED2,LED3",
+          {
+            "puuid": "551a075869554d629f2a7309675972ad",
+            "uuid": ""
+          }
+        ],
+        [
+          "NEON",
+          1,
+          "LDH-3R",
+          "LMP2",
+          {
+            "puuid": "6f7a5131c0184b0cb6b6773b964b1543",
+            "uuid": ""
+          }
+        ],
+        [
+          "BJT_NPN",
+          2,
+          "TO-92-3_L4.6-W3.5-P1.27-L",
+          "Q1,Q2",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "0c5d35a5d25d4432af10f4f2d8647d3d",
+            "uuid": ""
+          }
+        ],
+        [
+          "BJT_NPN",
+          3,
+          "BC547",
+          "Q3,Q4,Q5",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "7507b04092134335b762ae17af69e95d",
+            "uuid": ""
+          }
+        ],
+        [
+          "BJT_PNP",
+          2,
+          "BC547",
+          "Q6,Q7",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "7507b04092134335b762ae17af69e95d",
+            "uuid": ""
+          }
+        ],
+        [
+          "BJT_NPN",
+          8,
+          "2N3055",
+          "Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "a558b3e3bc384008be4d3a852b442b12",
+            "uuid": ""
+          }
+        ],
+        [
+          "2.2k",
+          4,
+          "R_AXIAL-1.0",
+          "R1,R2,R6,R8",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": ""
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R_AXIAL-1.0",
+          "R3,R7",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": ""
+          }
+        ],
+        [
+          "22k",
+          1,
+          "R_AXIAL-1.0",
+          "R4",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": ""
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R_AXIAL-1.0",
+          "R5,R9",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": ""
+          }
+        ],
+        [
+          "R",
+          16,
+          "R_AXIAL-1.0",
+          "R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25",
+          {
+            "SPICEMODEL": "&gt;SPICEMODEL",
+            "SPICEEXTRA": "&gt;SPICEEXTRA",
+            "puuid": "dd710703be1e4fec99153f373fdbc90f",
+            "uuid": ""
+          }
+        ],
+        [
+          "SWITCH-MOMENTARY-2-CLOSED",
+          1,
+          "TACTILE-PTH-12MM",
+          "S2",
+          {
+            "puuid": "7cc4062873b7482da3e486f6725d6d9c",
+            "uuid": ""
+          }
+        ],
+        [
+          "74AC11112",
+          1,
+          "DIL16",
+          "IC3",
+          {
+            "puuid": "89c3420eee434f4494511577263553c4",
+            "uuid": ""
+          }
+        ],
+        [
+          "22-23-2031",
+          2,
+          "CONN-TH_3P-P2.54_22-23-2031",
+          "X1,X10",
+          {
+            "puuid": "65ec125422ed4ef68127670d15040fde",
+            "uuid": ""
+          }
+        ],
+        [
+          "22-23-2021",
+          4,
+          "KK100_22-23-2021",
+          "X3,X5,X11,X12",
+          {
+            "puuid": "6516d693513a426fba830dbaee75487c",
+            "uuid": ""
+          }
+        ],
+        [
+          "22-23-2031",
+          1,
+          "KK100_22-23-2021",
+          "X6",
+          {
+            "puuid": "6516d693513a426fba830dbaee75487c",
+            "uuid": ""
+          }
+        ]
+      ],
+      "updateTime": 1699184986,
+      "createTime": 1698520928,
+      "histories": [],
+      "created_at": "2023-10-29 00:52:08",
+      "updated_at": "2023-11-05 17:19:46"
+    },
+    {
+      "uuid": "3106864f0352a2298a547ef14630beee",
+      "puuid": "c7d5405907cf6bef2b680588874576e6",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "784a808a6af94c139aa4b0bac2cef023": 9,
+        "a56bfb6b36b743d3960c07c49f9ccd98": 1,
+        "ed797e907c214f52aa3cbac5c18d4bc7": 2,
+        "6df356e6ab83442da0f6c1372c27f98c": 1,
+        "c3d38078307f4c1f96d05eced41ab710": 1,
+        "58cf47cc86d44a6a9f41d42cd83458d8": 1,
+        "8b29fe057b564251946d4868dcfcd700": 2,
+        "113d5fb1d2714eb88660bafb55f5160d": 2,
+        "36a30679eb3a40688e228ec11750c875": 1,
+        "48edce3faa8c4191a500e455df7f7c60": 1,
+        "de3696f9d9fe4d8f83d3a809243d14e9": 1,
+        "61cccdc8b5014f5786200c9b3d832328": 1,
+        "1f261cf72cb1479ca32177c31156ede3": 1,
+        "ebf4b408f4874f3b99d4517421b477b3": 1,
+        "551a075869554d629f2a7309675972ad": 3,
+        "6f7a5131c0184b0cb6b6773b964b1543": 1,
+        "0c5d35a5d25d4432af10f4f2d8647d3d": 2,
+        "7507b04092134335b762ae17af69e95d": 5,
+        "a558b3e3bc384008be4d3a852b442b12": 8,
+        "dd710703be1e4fec99153f373fdbc90f": 25,
+        "7cc4062873b7482da3e486f6725d6d9c": 1,
+        "89c3420eee434f4494511577263553c4": 1,
+        "65ec125422ed4ef68127670d15040fde": 2,
+        "6516d693513a426fba830dbaee75487c": 5
+      },
+      "BOM": [],
+      "updateTime": 1699180970,
+      "createTime": 1699174843,
+      "histories": [],
+      "created_at": "2023-11-05 14:30:43",
+      "updated_at": "2023-11-05 16:12:50"
+    }
+  ],
+  "sort": [],
+  "title": "EP_assignment",
+  "foldername": "EP_assignment",
+  "schfilename": "EP_assignment.json",
+  "schfilemtime": 1699198013301
+}
